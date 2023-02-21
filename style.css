@@ -31,7 +31,7 @@ body {
   width: 90vw;
   display: flex;
   flex-direction: column;
-  margin: 5% auto;
+  margin: 50px auto;
 }
 
 .hero {
@@ -94,7 +94,6 @@ h1 {
 .plan a {
   color: var(--Bright-blue);
   font-weight: 900;
-  /* opacity: 0.9; */
 }
 
 .proceed-button,
@@ -133,6 +132,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+  }
+
+  .order-card {
+    margin: 0;
   }
   .hero {
     margin: 0 0 30px;
